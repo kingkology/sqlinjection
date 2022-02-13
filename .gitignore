@@ -1,0 +1,11 @@
+
+*.sql
+pics/secure_db.PNG
+pics/vulnerable_logic.PNG
+pics/vulnerable_db.PNG
+pics/unsecured_login.PNG
+pics/unsecured_javascript.PNG
+pics/stringify.PNG
+pics/secured_login.PNG
+pics/secure_script.PNG
+pics/secure_logic.PNG
