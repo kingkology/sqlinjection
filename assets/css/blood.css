@@ -1,0 +1,49 @@
+
+
+
+.blood {
+  
+  
+  font-family: 'Lobster', cursive;
+  font-size: 26px;
+  line-height: 26px;
+  text-decoration: none;
+  outline: none;
+  border-radius: 15px;
+    
+  position: relative;
+  overflow: visible; /* IE9 & 10 */
+  -webkit-transition: 500ms linear;
+     -moz-transition: 500ms linear;
+       -o-transition: 500ms linear;
+          transition: 500ms linear;
+
+          filter: drop-shadow(0 0 10px red);
+}
+
+.blood::before {
+  content: '';
+  position: absolute;
+  top: -7px;
+  left: -3px;
+  right: 0;
+  height: 23px;
+  
+}
+
+.blood:focus {
+  outline: none; /*FF*/
+}
+.blood:active {
+  box-shadow:
+    inset 1px 1px 0px rgba(231,255,255,0.25), /* highlight */
+    inset 0 0 6px #da3b2c, /* inner glow */
+    0px 1px 0px rgba(255,255,255,0.25); /* shadow */
+    
+  -webkit-transition: 50ms linear;
+     -moz-transition: 50ms linear;
+       -o-transition: 50ms linear;
+          transition: 50ms linear;
+}
+
+
